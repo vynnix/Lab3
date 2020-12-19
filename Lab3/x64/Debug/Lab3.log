@@ -1,0 +1,23 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\manta\Desktop\Lab3\Lab3\Lab3>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\manta\Desktop\Lab3\Lab3\Lab3\kernel.cu" 
+C:/Users/manta/Desktop/Lab3/Lab3/Lab3/kernel.cu(193): warning : returning pointer to local variable
+  
+C:\Users\manta\Desktop\Lab3\Lab3\Lab3\nlohmann/json.hpp(14267): warning : pointless comparison of unsigned integer with zero
+            detected during:
+              instantiation of "void nlohmann::detail::serializer<BasicJsonType>::dump_integer(NumberType) [with BasicJsonType=nlohmann::basic_json<std::map, std::vector, std::string, __nv_bool, int64_t, uint64_t, double, std::allocator, nlohmann::adl_serializer>, NumberType=uint64_t, <unnamed>=0]" 
+  (13902): here
+              instantiation of "void nlohmann::detail::serializer<BasicJsonType>::dump(const BasicJsonType &, __nv_bool, __nv_bool, unsigned int, unsigned int) [with BasicJsonType=nlohmann::basic_json<std::map, std::vector, std::string, __nv_bool, int64_t, uint64_t, double, std::allocator, nlohmann::adl_serializer>]" 
+  (16420): here
+              instantiation of "nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer>::string_t nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer>::dump(int, char, __nv_bool, nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer>::error_handler_t) const [with ObjectType=std::map, ArrayType=std::vector, StringType=std::string, BooleanType=__nv_bool, NumberIntegerType=int64_t, NumberUnsignedType=uint64_t, NumberFloatType=double, AllocatorType=std::allocator, JSONSerializer=nlohmann::adl_serializer]" 
+  (22497): here
+  
+C:/Users/manta/Desktop/Lab3/Lab3/Lab3/kernel.cu(193): warning : returning pointer to local variable
+  
+  kernel.cu
+C:/Users/manta/Desktop/Lab3/Lab3/Lab3/kernel.cu(51): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'char *'
+C:/Users/manta/Desktop/Lab3/Lab3/Lab3/kernel.cu(51): warning C4313: 'printf': '%x' in format string conflicts with argument 1 of type 'char *'
+C:/Users/manta/Desktop/Lab3/Lab3/Lab3/kernel.cu(56): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\manta\Desktop\Lab3\Lab3\Lab3\kernel.cu(193): warning C4172: returning address of local variable or temporary: result
+     Creating library C:\Users\manta\Desktop\Lab3\Lab3\x64\Debug\Lab3.lib and object C:\Users\manta\Desktop\Lab3\Lab3\x64\Debug\Lab3.exp
+  Lab3.vcxproj -> C:\Users\manta\Desktop\Lab3\Lab3\x64\Debug\Lab3.exe

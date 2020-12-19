@@ -1,0 +1,129 @@
+{
+  "cars": [
+    {
+      "brand": "Chevrolet",
+      "makeYear": 2010,
+      "mileage": 35566.921000
+    },
+    {
+      "brand": "Chevrolet",
+      "makeYear": 2017,
+      "mileage": 51082.695000
+    },
+    {
+      "brand": "GMC",
+      "makeYear": 2014,
+      "mileage": 30682.691000
+    },
+    {
+      "brand": "Dodge",
+      "makeYear": 2018,
+      "mileage": 10515.401000
+    },
+    {
+      "brand": "Volvo",
+      "makeYear": 2013,
+      "mileage": 90485.335000
+    },
+    {
+      "brand": "Ford",
+      "makeYear": 2016,
+      "mileage": 121759.182000
+    },
+    {
+      "brand": "Chevrolet",
+      "makeYear": 2010,
+      "mileage": 45750.560000
+    },
+    {
+      "brand": "Toyota",
+      "makeYear": 2014,
+      "mileage": 72495.528000
+    },
+    {
+      "brand": "Ford",
+      "makeYear": 2011,
+      "mileage": 110886.441000
+    },
+    {
+      "brand": "Ford",
+      "makeYear": 2011,
+      "mileage": 117277.071000
+    },
+    {
+      "brand": "Chevrolet",
+      "makeYear": 2011,
+      "mileage": 81651.155000
+    },
+    {
+      "brand": "Land Rover",
+      "makeYear": 2014,
+      "mileage": 106548.187000
+    },
+    {
+      "brand": "Volkswagen",
+      "makeYear": 2015,
+      "mileage": 75853.129000
+    },
+    {
+      "brand": "Acura",
+      "makeYear": 2012,
+      "mileage": 75537.384000
+    },
+    {
+      "brand": "Lincoln",
+      "makeYear": 2014,
+      "mileage": 30270.839000
+    },
+    {
+      "brand": "Audi",
+      "makeYear": 2016,
+      "mileage": 83773.019000
+    },
+    {
+      "brand": "Toyota",
+      "makeYear": 2019,
+      "mileage": 80504.338000
+    },
+    {
+      "brand": "Suzuki",
+      "makeYear": 2019,
+      "mileage": 116579.963000
+    },
+    {
+      "brand": "Acura",
+      "makeYear": 2018,
+      "mileage": 116629.155000
+    },
+    {
+      "brand": "Mitsubishi",
+      "makeYear": 2013,
+      "mileage": 59328.539000
+    },
+    {
+      "brand": "Land Rover",
+      "makeYear": 2019,
+      "mileage": 91760.488000
+    },
+    {
+      "brand": "Pontiac",
+      "makeYear": 2015,
+      "mileage": 114190.696000
+    },
+    {
+      "brand": "Isuzu",
+      "makeYear": 2019,
+      "mileage": 71089.111000
+    },
+    {
+      "brand": "Plymouth",
+      "makeYear": 2016,
+      "mileage": 28847.500000
+    },
+    {
+      "brand": "Saturn",
+      "makeYear": 2014,
+      "mileage": 24640.136000
+    }
+  ]
+}
